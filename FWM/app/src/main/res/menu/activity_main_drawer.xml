@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_baseline_home_24"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_createevents"
+            android:icon="@drawable/ic_baseline_create_24"
+            android:title="Create Event" />
+        <item
+            android:id="@+id/nav_allevents"
+            android:icon="@drawable/ic_baseline_event_black"
+            android:title="All Events" />
+        <item
+            android:id="@+id/nav_reports"
+            android:icon="@drawable/ic_baseline_format_list_numbered_black"
+            android:title="Events Report" />
+
+        <item
+            android:id="@+id/nav_regevents"
+            android:icon="@drawable/ic_baseline_event_available_black"
+            android:title="Registered Events" />
+        <item
+            android:id="@+id/nav_history"
+            android:icon="@drawable/ic_baseline_history_25"
+            android:title="My Event History" />
+
+        <item
+            android:id="@+id/nav_info"
+            android:icon="@drawable/ic_baseline_info_24"
+            android:title="Project Info" />
+
+        <item
+            android:id="@+id/nav_invitation"
+            android:icon="@drawable/ic_baseline_sms_24"
+            android:title="Send Invitation"
+             />
+
+        <item
+            android:id="@+id/nav_signout"
+            android:icon="@drawable/ic_baseline_exit_to_app_24"
+            android:title="Sign out" />
+    </group>
+</menu>

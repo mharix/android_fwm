@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.fwm.ui.home.HomeFragment"
+        android:label="Home"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/nav_createevents"
+        android:name="com.example.fwm.ui.createevents.createeventsFragment"
+        android:label="Create Event"
+        tools:layout="@layout/fragment_createevents" />
+
+    <fragment
+        android:id="@+id/nav_allevents"
+        android:name="com.example.fwm.ui.allevents.alleventsFragment"
+        android:label="All Events"
+        tools:layout="@layout/fragment_allevents" />
+
+    <fragment
+        android:id="@+id/nav_reports"
+        android:name="com.example.fwm.ui.reports.reportsFragment"
+        android:label="Events Report"
+        tools:layout="@layout/fragment_reports" />
+
+    <fragment
+        android:id="@+id/nav_regevents"
+        android:name="com.example.fwm.ui.regevents.regeventsFragment"
+        android:label="Registerd Events"
+        tools:layout="@layout/fragment_regevents" />
+
+    <fragment
+        android:id="@+id/nav_history"
+        android:name="com.example.fwm.ui.history.historyFragment"
+        android:label="My Events History"
+        tools:layout="@layout/fragment_history" />
+
+
+
+    <fragment
+        android:id="@+id/nav_info"
+        android:name="com.example.fwm.ui.info.infoFragment"
+        android:label="Project Info"
+        tools:layout="@layout/fragment_info" />
+
+    <fragment
+        android:id="@+id/nav_invitation"
+        android:name="com.example.fwm.invitation"
+        android:label="Send Invitation"
+        tools:layout="@layout/fragment_info" />
+    <fragment
+        android:id="@+id/nav_signout"
+        android:name="com.example.fwm.ui.signout.signoutFragment"
+        android:label="Create Events"
+        tools:layout="@layout/fragment_signout" />
+
+
+</navigation>

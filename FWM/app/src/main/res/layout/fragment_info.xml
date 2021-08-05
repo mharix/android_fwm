@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f2f2f2"
+    tools:context=".ui.eventRegDetails">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10.3dp"
+            android:orientation="horizontal">
+
+            <customfonts.MyTextView_Poppins_Medium
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="top"
+                android:layout_marginLeft="32dp"
+                android:gravity="center_horizontal"
+                android:text="Project Info"
+                android:textColor="#333232"
+                android:textSize="20sp" />
+
+
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"/>
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal"
+            android:paddingLeft="14.5dp">
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="13dp"
+                android:layout_marginRight="35.6dp"
+                android:background="@drawable/rectangle">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="13dp"
+                    android:layout_marginRight="19dp"
+                    android:orientation="vertical">
+
+
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" >
+
+                        <ImageView
+                            android:id="@+id/aptech"
+                            android:layout_width="120dp"
+                            android:layout_height="78dp"
+                            android:layout_alignParentLeft="true"
+                            android:layout_alignParentTop="true"
+                            android:background="@drawable/aptech" />
+
+                        <ImageView
+                            android:id="@+id/eproject"
+                            android:layout_width="95dp"
+                            android:layout_height="66dp"
+                            android:layout_alignParentTop="true"
+                            android:layout_alignParentRight="true"
+
+                            android:background="@drawable/eproject" />
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" >
+
+                        <TextView
+                            android:id="@+id/textView1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentLeft="true"
+                            android:layout_alignParentTop="true"
+                            android:textSize="12dp"
+                            android:text="Aptech SFC,Pakistan" />
+
+                        <TextView
+                            android:id="@+id/textView2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:layout_alignParentTop="true"
+                            android:layout_marginRight="27dp"
+                            android:textSize="12dp"
+                            android:text="eProject" />
+
+                    </RelativeLayout>
+
+                    <TextView
+                        android:id="@+id/eventName"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                         android:text="Food Wastage Management"
+                        android:textSize="20dp"
+                        android:textColor="#00695C"
+                        android:textStyle="bold"
+                        android:gravity="center_vertical|center_horizontal"
+                        />
+
+                    <TextView
+                        android:id="@+id/eventTime"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="An Android application"
+                        android:layout_marginTop="10dp"
+                        android:textAlignment="center"
+                        android:textSize="15dp"
+                        android:textStyle="italic"
+                        android:gravity="left"
+                        tools:ignore="RtlCompat" />
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="350dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="20.6dp"
+            android:layout_gravity="center"
+            android:orientation="horizontal"
+            android:paddingLeft="3.5dp"
+            android:paddingRight="3.5dp"
+            >
+
+            <View
+                android:layout_width="5.6dp"
+                android:layout_height="match_parent"
+                android:background="#00695C" />
+
+            <ScrollView
+                android:layout_width="320dp"
+
+                android:layout_height="match_parent">
+
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10.6dp"
+
+                    android:background="@drawable/rectangle">
+
+                    <LinearLayout
+                        android:id="@+id/checkboxList"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="13dp"
+                        android:layout_marginRight="19dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="In today’s world, we folks organize and go to so many events. There are various corporate
+events, meetings, functions and parties organized.
+In these events, there are lots of food being wasted due to people’s preferences.
+So, Why not we can develop a Mobile Application based on Food preferences and the
+number of people coming to the event."
+                            android:layout_marginTop="10dp"
+
+                            android:textSize="15dp"
+                            android:textStyle="normal"
+                            />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Functinalities:"
+                            android:layout_marginTop="10dp"
+                            android:textSize="15dp"
+                            android:textStyle="bold"
+                            />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="\u2022 Guest should be registered as User in the app."
+                            android:layout_marginTop="10dp"
+
+                            android:textSize="15dp"
+                            android:textStyle="normal"
+                            />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="\u2022 All guest should login using proper id/password."
+                            android:layout_marginTop="10dp"
+
+                            android:textSize="15dp"
+                            android:textStyle="normal"
+                            />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="\u2022 Food Preferences option will be provided to the Guests"
+                            android:layout_marginTop="10dp"
+
+                            android:textSize="15dp"
+                            android:textStyle="normal"
+                            />
+                        <TextView
+
+
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="\u2022 Report on Number of guests coming for the Event.
+"
+                            android:layout_marginTop="10dp"
+
+                            android:textSize="15dp"
+                            android:textStyle="normal"
+                            />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="\u2022 Report on Food preferences of the participants."
+                            android:layout_marginTop="10dp"
+
+                            android:textSize="15dp"
+                            android:textStyle="normal"
+                            />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="\u2022 Better management for events and functions."
+                            android:layout_marginTop="10dp"
+
+                            android:textSize="15dp"
+                            android:textStyle="normal"
+                            />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="\u2022 Timing and Venue will be provided through Google Maps"
+                            android:layout_marginTop="10dp"
+
+                            android:textSize="15dp"
+                            android:textStyle="normal"
+                            />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="\u2022 The dress code can be added for the event."
+                            android:layout_marginTop="10dp"
+
+                            android:textSize="15dp"
+                            android:textStyle="normal"
+                            />
+
+
+
+
+
+
+                    </LinearLayout>
+
+
+
+                </LinearLayout>
+
+            </ScrollView>
+
+            <View
+                android:layout_width="5.6dp"
+                android:layout_height="match_parent"
+                android:background="#00695C"/>
+        </LinearLayout>
+
+
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#00695C"
+            android:text="Group Members:"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:gravity="center_vertical|center_horizontal"
+            />
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Muhammad Haris -1071544"
+            android:layout_marginTop="2dp"
+            android:textAlignment="center"
+            android:textSize="15dp"
+            android:textStyle="italic"
+            android:gravity="left"
+            tools:ignore="RtlCompat" />
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ahtesham Bashir -1072058"
+
+            android:textAlignment="center"
+            android:textSize="15dp"
+            android:textStyle="italic"
+            android:gravity="left"
+            tools:ignore="RtlCompat" />
+
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>

@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f2f2f2"
+    tools:context=".login">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="38.3dp"
+            android:orientation="horizontal">
+
+            <customfonts.MyTextView_Poppins_Medium
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_marginLeft="32dp"
+                android:gravity="center_horizontal"
+                android:text="Sign Up"
+                android:textColor="#333232"
+                android:textSize="30sp" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="right|bottom"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginBottom="7.3dp"
+                    android:background="@drawable/small_cicle" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <FrameLayout
+                    android:id="@+id/half_circle"
+                    android:layout_width="50dp"
+                    android:layout_height="100dp"
+                    android:layout_alignParentRight="true"
+                    android:background="@drawable/half_circle" />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal"
+            android:paddingLeft="14.5dp">
+
+            <View
+                android:layout_width="5.6dp"
+                android:layout_height="225dp"
+                android:background="#00695C" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="13dp"
+                android:layout_marginRight="35.6dp"
+                android:background="@drawable/rectangle">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="13dp"
+                    android:layout_marginRight="19dp"
+                    android:orientation="vertical">
+
+
+                    <customfonts.MyTextView_Poppins_Regular
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="22.3dp"
+                        android:text="Full Name"
+                        android:textColor="#9e9d9d"
+                        android:textSize="12.3sp" />
+
+
+                    <customfonts.EditText_Poppins_Regular
+                        android:id="@+id/name"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@android:color/transparent"
+                        android:digits="abcdefghijklmnopqrstuvwxyz ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+                        android:inputType="textPersonName"
+                        android:maxLength="50"
+                        android:maxLines="1"
+                        android:paddingTop="5dp"
+                        android:textColorHint="#333232"
+                        android:textCursorDrawable="@drawable/cursor_color"
+                        android:textSize="15sp"
+
+                        android:nextFocusForward="@+id/phone"
+                        android:imeOptions="actionNext"
+
+                        />
+
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginTop="5dp"
+                        android:background="#9e9e9e" />
+
+
+
+                    <customfonts.MyTextView_Poppins_Regular
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="22.3dp"
+                        android:text="Phone#"
+                        android:textColor="#9e9d9d"
+                        android:textSize="12.3sp" />
+
+
+                    <customfonts.EditText_Poppins_Regular
+                        android:id="@+id/phone"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@android:color/transparent"
+                        android:digits="0123456789"
+                        android:inputType="number|phone"
+                        android:maxLength="11"
+                        android:maxLines="1"
+                        android:paddingTop="5dp"
+                        android:textColorHint="#333232"
+                        android:textCursorDrawable="@drawable/cursor_color"
+                        android:textSize="15sp"
+                        android:nextFocusForward="@+id/email"
+                        android:imeOptions="actionNext"
+                        />
+
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginTop="5dp"
+                        android:background="#9e9e9e" />
+
+
+
+
+
+
+                    <customfonts.MyTextView_Poppins_Regular
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="22.3dp"
+                        android:text="Email@"
+                        android:textColor="#9e9d9d"
+                        android:textSize="12.3sp" />
+
+
+                    <customfonts.EditText_Poppins_Regular
+                        android:id="@+id/email"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@android:color/transparent"
+                        android:digits="abcdefghijklmnopqrstuvwxyz. @0123456789"
+                        android:inputType="textWebEmailAddress|textEmailAddress"
+                        android:maxLength="50"
+                        android:maxLines="1"
+                        android:paddingTop="5dp"
+                        android:textColorHint="#333232"
+                        android:textCursorDrawable="@drawable/cursor_color"
+                        android:textSize="15sp"
+                        android:nextFocusForward="@+id/password"
+                        android:imeOptions="actionNext"
+                        />
+
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginTop="5dp"
+                        android:background="#9e9e9e" />
+
+                    <customfonts.MyTextView_Poppins_Regular
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="23dp"
+                        android:text="Password"
+                        android:textColor="#9e9d9d"
+                        android:textSize="12.3sp" />
+
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:paddingTop="5dp">
+
+
+                        <customfonts.EditText_Poppins_Regular
+                            android:id="@+id/password"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@android:color/transparent"
+                            android:digits="abcdefghijklmnopqrstuvwxyz0123456789!@#$%*?+-~"
+                            android:inputType="textPassword"
+                            android:maxLength="8"
+                            android:maxLines="1"
+                            android:textColor="#333232"
+                            android:textCursorDrawable="@drawable/cursor_color"
+                            android:textSize="15sp"
+
+                            android:imeOptions="actionDone"
+                            />
+
+
+
+                    </RelativeLayout>
+
+                    <View
+                        android:id="@+id/view"
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="35dp"
+                        android:background="#9e9e9e" />
+
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:onClick="Register"
+            android:id="@+id/signupbtn"
+            android:layout_width="190dp"
+            android:layout_height="61dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_gravity="right"
+            android:layout_marginTop="38dp"
+            android:layout_marginBottom="16.7dp"
+            android:background="@drawable/half_blue_roundshape"
+            android:gravity="center"
+            android:orientation="vertical"
+            tools:ignore="OnClick">
+
+            <customfonts.MyTextView_Poppins_SemiBold
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sign Up"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:textColor="#ffffff"
+                android:textSize="20sp" />
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>
